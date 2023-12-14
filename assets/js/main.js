@@ -23,8 +23,8 @@ let trenne = () => {
         output2.innerHTML = slice4
         break;
         default:
-            output1.innerHTML = "GIB ETWAS AN"
-            output2.innerHTML = "BASTARD!"
+            output1.innerHTML = "Davor? oder danach?"
+            output2.innerHTML = "daemlicher BASTARD!"
 
 
     }

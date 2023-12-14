@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "chainsaw";
+    src: url("../font/ChainsawzBB-Italic/chainsawzbb_reg.otf");
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.frame {
+    border-radius: 10px;
+    padding: 3vh;
+    background-color: rgba(255, 105, 180, 0.307);
+    font-family: "chainsaw";
+    gap: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 7vh;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: hotpink;
+}
+
+h2 {
+    font-size: 5vh;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: hotpink;
+}
+
+#output1,
+#output2 {
+    font-size: 1.5rem;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: white;
+}
+
+#radio1,
+#radio2 {
+    vertical-align: middle;
+}
+
+input[type=text]::placeholder {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "chainsaw";
+}
+
+input[type=text] {
+    font-size: 1.5rem;
+    padding: 2vh 7vw;
+    text-align: center;
+    font-family: "chainsaw";
+}
+
+input[type=submit] {
+    font-family: "chainsaw";
+    padding: 0.3rem 0.5rem;
+    margin-left: 1vw;
+}
+
+input:checked {
+    height: 5px;
+    width: 5px;
+    color: brown;
+}
