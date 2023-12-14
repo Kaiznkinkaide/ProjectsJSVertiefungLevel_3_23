@@ -10,8 +10,8 @@ let trenne = () => {
 
     let slice1 = input1.slice(0, atIndex)
     let slice2 = input1.slice(atIndex)
-    let slice3 = input1.slice(0, atIndex +1)
-    let slice4 = input1.slice(atIndex +1)
+    let slice3 = input1.slice(0, atIndex + input2.length)
+    let slice4 = input1.slice(atIndex + input2.length)
 
     switch(true){
         case radio1:

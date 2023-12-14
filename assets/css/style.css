@@ -36,14 +36,14 @@ h1 {
     font-size: 7vh;
     color: white;
     -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: hotpink;
+    -webkit-text-stroke-color: darkred;
 }
 
 h2 {
     font-size: 5vh;
     color: white;
     -webkit-text-stroke-width: 0.5px;
-    -webkit-text-stroke-color: hotpink;
+    -webkit-text-stroke-color: darkred;
 }
 
 #output1,
@@ -53,7 +53,6 @@ h2 {
     -webkit-text-stroke-width: 0.5px;
     -webkit-text-stroke-color: white;
 }
-
 
 #radio1,
 #radio2 {
