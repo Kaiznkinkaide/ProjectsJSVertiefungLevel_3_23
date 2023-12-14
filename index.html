@@ -5,10 +5,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+<form onsubmit="trenne();return false">
+    <div class="frame">
+        <h1>Zeichen Kette trennungs maschine</h1>
+        <label for="text1">Zu trennende Zeichenkette</label>
+        <input type="text" name="text1" id="input1" required placeholder="Gib einen Text ein">
+        <label for="text2">Trenne bei Zeichekette</label>
+        <input type="text" name="text2" id="input2" required placeholder="Gib einen Bustaben ein">
+        <div class="radioFrame">
+            <input type="radio" name="radio1" id="radio1">
+            <label for="radio1">davor trennen</label>
+            <input type="radio" name="radio1" id="radio2">
+            <label for="radio2">danach trennen</label>
+            <input type="submit" value=" Hier Klicken">
+        </div>
+</form>
+<h2>Ausgabe</h2>
+<h3>Vorderer Teil</h3>
+<p id="output1"></p>
+<h3>Hinterer Teil</h3>
+<p id="output2"></p>
+</div>
+
 
 <body>
-    <script src="./"></script>
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
